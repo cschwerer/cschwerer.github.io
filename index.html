@@ -97,14 +97,12 @@
                I am ultimately interested in cybersecurity and will be enrolling in the Masters in Cybersecurity Engineering Program at USD in 2026. 
               </p>
               <p>
-                Professional info
                 A retired Army Medical Services Officer, I am now pursuing a career in computer science to better appeal to my personal and professional interests.
                 To begin this transition, upon leaving the military I earned the CompTia Network+ and Security+ certifications. 
                 I chose to go back to school to build a strong foundation and gain experience with multiple programming languages.
 
                </p>
                <p>
-                Hobbies
                 I am proud to say I have surfed a total of over 5 times in my life, earning my credentials as a San Diego native.
                 I also really enjoy motorcycle riding and hiking. 
                </p>
@@ -136,21 +134,34 @@
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
-              <h3>Project Title</h3>
+              <h3>Calculating the Birthday Paradox</h3>
               <p>
-               Motivation of the project
+               The Birthday Paradox is a classic probability puzzle that asks how many people need to be in a room before two of them are likely to share the same birthday. 
+               Most people assume the number must be very large, but probability behaves differently than our intuition suggests. 
+               In reality, with just 23 people, there is already about a 50% chance of a shared birthday. 
+               This project uses simulation to demonstrate how quickly the probability increases as the group size grows, helping make an unintuitive idea easier to understand.
               </p>
               <p>
-              Functional requirements/what the project does
+              My program simulates groups of people and assigns each person a randomly generated birthday. 
+              It repeats this process many times—20 trials for each group size—and checks whether any two people in the group share the same birthday. 
+              The simulation runs for group sizes ranging from 5 to 100 people, increasing in steps of 5. 
+              For each group size, the program calculates the percentage of trials in which a shared birthday occurred and prints the results in a clean, readable table. 
+              This allows users to see how the probability changes as the number of people increases.
               </p>
               <p>
-              Project design
+              I implemented the core simulation logic using a modular, object‑oriented design. 
+              The Simulator class controls the overall experiment, iterating through different group sizes and printing the results. 
+              The Experiment class runs multiple trials for a given group size and computes the percentage of trials with matching birthdays. 
+              The Trial class generates an array of Birthday objects and checks for duplicates using a pairwise comparison. 
+              I also designed the Birthday class, which uses a shared Random object to generate realistic month/day combinations based on the number of days in each month. 
+              Throughout the project, I focused on clean structure, clear naming, and separating responsibilities across classes to make the code easy to read and maintain.              </p>
               </p>
               <p>
-              Implementation
+              This project strengthened my understanding of probability and randomness, but it also helped me grow as a programmer. 
+              I practiced designing modular classes, passing shared resources like Random through constructors, and writing code that cleanly separates responsibilities. 
+              I also gained experience thinking about algorithmic efficiency when checking for duplicate birthdays. 
+              Overall, the project helped me improve both my technical skills and my ability to communicate a technical idea to a general audience.
               </p>
-
-
             </div>
 
             
