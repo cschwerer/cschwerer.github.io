@@ -2,34 +2,46 @@
 <html lang="en">
   <head>
 
+    <!-- ============================
+         PAGE METADATA + CSS IMPORTS
+         ============================ -->
     <title>Your personal website</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
+    <!-- Google Fonts + Icon Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
+    <!-- Core CSS Frameworks -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
+
+    <!-- Carousel + Animation CSS -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
+    <!-- Fancybox (image viewer) -->
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
+    <!-- Datepicker + Icons -->
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
+    <!-- Scroll animations -->
     <link rel="stylesheet" href="css/aos.css">
 
+    <!-- Main site styling -->
     <link rel="stylesheet" href="css/style.css">
 
   </head>
+
+  <!-- ============================
+       BODY + PAGE WRAPPER
+       ============================ -->
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-
+  <!-- Loading overlay -->
   <div id="overlayer"></div>
   <div class="loader">
     <div class="spinner-border text-primary" role="status">
@@ -37,9 +49,11 @@
     </div>
   </div>
 
-
   <div class="site-wrap">
 
+    <!-- ============================
+         MOBILE MENU (auto-generated)
+         ============================ -->
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -49,19 +63,21 @@
       <div class="site-mobile-menu-body"></div>
     </div>
 
-
+    <!-- ============================
+         NAVIGATION BAR / HEADER
+         ============================ -->
     <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-
       <div class="container">
         <div class="row align-items-center">
 
+          <!-- Logo -->
           <div class="col-6 col-xl-2">
             <h1 class="mb-0 site-logo"><a href="#" class="h2 mb-0">Christian Schwerer</a></h1>
           </div>
 
+          <!-- Desktop Navigation -->
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
-
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#about-section" class="nav-link">About</a></li>
                 <li><a href="#projects-section" class="nav-link">Projects</a></li>
@@ -70,25 +86,30 @@
             </nav>
           </div>
 
-
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+          <!-- Mobile Menu Toggle -->
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3">
+            <a href="#" class="site-menu-toggle js-menu-toggle float-right">
+              <span class="icon-menu h3"></span>
+            </a>
+          </div>
 
         </div>
       </div>
-
     </header>
 
-
-
-
+    <!-- ============================
+         ABOUT SECTION
+         ============================ -->
     <div class="site-section cta-big-image border-bottom" id="about-section">
       <div class="container" style="padding-top: 30px">
         <div class="row">
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
 
+          <!-- Personal Photo -->
+          <div class="col-lg-6 mb-5" data-aos="fade-up">
             <img src="Personal_Image.jpg" alt="Personal Photo" class="img-fluid">
-
           </div>
+
+          <!-- About Text -->
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
               <p>
@@ -100,38 +121,39 @@
                 A retired Army Medical Services Officer, I am now pursuing a career in computer science to better appeal to my personal and professional interests.
                 To begin this transition, upon leaving the military I earned the CompTia Network+ and Security+ certifications. 
                 I chose to go back to school to build a strong foundation and gain experience with multiple programming languages.
-
                </p>
                <p>
                 I am proud to say I have surfed over 5 times in my life, earning my credentials as a San Diego native.
                 I also really enjoy motorcycle riding and hiking. 
                </p>
-
-
             </div>
-
-            
-
           </div>
+
         </div>
       </div>
     </div>
 
-
-
+    <!-- ============================
+         PROJECTS SECTION
+         ============================ -->
     <section class="site-section border-bottom" id="projects-section">
       <div class="container">
+
+        <!-- Section Title -->
         <div class="row mb-5 justify-content-center">
           <div class="col-md-8 text-center">
-            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Projects</h2>
+            <h2 class="section-title mb-3" data-aos="fade-up">Projects</h2>
           </div>
         </div>
+
+        <!-- ============================
+             PROJECT 1: Birthday Paradox
+             ============================ -->
         <div class="row">
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-          
-            <img src="images/Birthday_Paradox_Pic.png" alt="Image of your project" class="img-fluid">
-          
+          <div class="col-lg-6 mb-5" data-aos="fade-up">
+            <img src="images/Birthday_Paradox_Pic.png" alt="Birthday Paradox" class="img-fluid">
           </div>
+
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
               <h3>Calculating the Birthday Paradox</h3>
@@ -160,38 +182,127 @@
               Overall, the project helped me improve both my technical skills and my ability to communicate a technical idea to a general audience.
               </p>
             </div>
-
-            
-
           </div>
         </div>
-      </div>
-      
 
+        <!-- ============================
+             PROJECT 2: Elevator Simulator
+             ============================ -->
+        <!-- >>> ELEVATOR PROJECT ADDITION START >>> -->
+        <div class="row" style="margin-top: 60px;">
+
+          <!-- Project Image -->
+          <div class="col-lg-6 mb-5" data-aos="fade-up">
+            <img src="images/Elevator_Simulator.png" alt="Elevator Simulator UML" class="img-fluid">
+          </div>
+
+          <!-- Project Description -->
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+
+              <!-- PROJECT TITLE -->
+              <h3>Elevator Simulator</h3>
+
+              <!-- OVERVIEW -->
+              <p>
+                This project simulates how different types of elevators respond to passenger movement requests inside a building. 
+                The system models four elevator types—Standard, Freight, Penthouse, and Express—each with unique behavior rules. 
+                A user selects the building height, the number of each elevator type, the scheduling strategy, and the list of calls to process. 
+                The simulator then runs rounds until call completion, assigning calls, moving elevators, and printing the state of the system. 
+                The project emphasizes object oriented design, planning with UML diagrams, and test‑driven development while collaborating with a partner.
+              </p>
+
+              <!-- FUNCTIONAL REQUIREMENTS -->
+              <h4>Functional Requirements</h4>
+              <p>
+                This simulator models how a real building might coordinate multiple elevators with the following logic:
+                <br><br>
+                • The user chooses the building height, the number of each elevator type, the scheduler logic, and the list of calls to process.<br>
+                • The simulation runs in rounds. Each round updates elevator positions, directions, and assigned calls.<br>
+                • A scheduler assigns calls to elevators based on the chosen strategy (Simple or Complex).<br>
+                • Elevators follow both shared rules and individual behavior (for instance, Express elevators only serve upper floors).<br>
+                • Each round prints the elevator type, current floor, direction, assigned calls, number of occupants, and any unassigned calls.<br>
+                • The simulation ends only when all calls have been completed and all elevators return to floor 1 with no remaining tasks.
+              </p>
+
+              <!-- DESIGN -->
+              <h4>Design</h4>
+              <p>
+                The system is built around strong object‑oriented design. We use abstraction and inheritance through abstract classes for both Elevator and Scheduler, allowing shared behavior while enabling each subclass to override methods for specialized logic. 
+                Polymorphism appears in how different elevator types and schedulers implement their movement and assignment rules. 
+                Encapsulation is maintained through access modifiers that restrict internal state and expose only necessary behaviors.
+                <br><br>
+                We followed SOLID principles throughout the design:
+                <br>
+                • <strong>Single Responsibility:</strong> Building manages elevator creation, while Simulator runs the simulation loop.<br>
+                • <strong>Open/Closed:</strong> New elevator types can be added by extending the Elevator abstract class.<br>
+                • <strong>Liskov Substitution:</strong> All elevator subclasses behave consistently with the expectations of the base class.<br>
+                • <strong>Interface Segregation:</strong> We avoided unnecessary interfaces and used abstract classes only where shared behavior mattered.<br>
+                • <strong>Dependency Inversion:</strong> The scheduler depends only on elevator behavior, not building details.
+                <br><br>
+                <strong>Assumptions:</strong><br>
+                • Elevators track occupancy, but maximum capacity is not enforced.<br>
+                • Schedulers operate only on elevator information to avoid unnecessary coupling.<br>
+                • Some logic was moved from Simulator to Building to improve testability and maintain single responsibility.<br>
+                • Abstract classes were chosen over interfaces to allow shared concrete behavior.
+              </p>
+
+              <!-- IMPLEMENTATION -->
+              <h4>Implementation</h4>
+              <p>
+                I was responsible for implementing several core components of the system, including elevator abstraction, inheritance for concrete implementaion, and core building logic. 
+                All classes were designed first via UML, using test-driven development to build the most efficient logic for each class and method. 
+                Throughout the project, I collaborated with my partner using Git branching workflows, UML diagrams, and iterative refinement to keep the design modular and maintainable.
+              </p>
+
+              <!-- WHAT YOU LEARNED -->
+              <h4>What I Learned</h4>
+              <p>
+                This project strengthened my understanding of object‑oriented programming, especially abstraction, inheritance, and polymorphism. 
+                I gained experience applying SOLID principles in a real system, designing UML diagrams, and writing clean, testable code. 
+                Working with a partner helped me practice communication, version control, and collaborative design. 
+                Overall, this project improved both my technical skills and my ability to structure and explain complex systems.
+              </p>
+
+              <!-- GitHub Link -->
+              <p>
+                <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank">
+                  View the project on GitHub
+                </a>
+              </p>
+
+            </div>
+          </div>
+
+        </div>
+        <!-- <<< ELEVATOR PROJECT ADDITION END <<< -->
+
+      </div>
     </section>
 
-
+    <!-- ============================
+         CONTACT SECTION
+         ============================ -->
     <section class="site-section" id="contact-section" data-aos="fade">
       <div class="container">
+
+        <!-- Section Title -->
         <div class="row mb-5">
           <div class="col-12 text-center">
             <h2 class="section-title mb-3">Contact Me</h2>
           </div>
         </div>
+
+        <!-- Contact Info -->
         <div class="row mb-5 text-center">
-
-
-
-          
-          
-          <div class="col-md-12 text-center">
+          <div class="col-md-12">
             <p class="mb-0">
               <span class="icon-mail_outline d-block h4 text-primary"></span>
               <span>email address</span>
             </p>
           </div>
-          
-          <div class="col-md-12 text-center">
+
+          <div class="col-md-12">
             <p class="mb-0">
               <span class="icon-graduation-cap d-block h4 text-primary"></span>
               <a href="">Resume</a>
@@ -202,25 +313,26 @@
       </div>
     </section>
 
-
+    <!-- ============================
+         FOOTER
+         ============================ -->
     <footer class="site-footer">
       <div class="container">
-
-          <div class="col-md-12 text-center">
-            <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website builds on a template by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-
-          </div>
-
-
+        <div class="col-md-12 text-center">
+          <p>
+            Copyright 
+            <script>document.write(new Date().getFullYear());</script>
+            | Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          </p>
+        </div>
       </div>
     </footer>
 
-  </div> <!-- .site-wrap -->
+  </div> <!-- END .site-wrap -->
 
+  <!-- ============================
+       JAVASCRIPT IMPORTS
+       ============================ -->
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
@@ -233,8 +345,6 @@
   <script src="js/jquery.sticky.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/collapsable.js"></script>
-
-
   <script src="js/main.js"></script>
 
   </body>
